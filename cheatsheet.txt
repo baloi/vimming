@@ -1,0 +1,17 @@
+Commands:
+> :J      - join two lines
+> 0       - go to the beginning of the line  
+> $       - go to the end of the line
+> :h      - help
+> CTRL-]  - go to tag
+> CTRL-O  - jump back
+> CTRL-D  - Scroll window Downwards in the buffer
+> q{register_name} - starts recording
+  q                - to finish recording
+  @{register_name} - execute what you recorded
+> f{char}          = To [count]'th occurrence of {char} to the right.
+> o       - begin a new line below the cursor and insert text
+  O       - begin a new line above the cursor and insert text
+
+Todo:
+* what are the single letter commands?
